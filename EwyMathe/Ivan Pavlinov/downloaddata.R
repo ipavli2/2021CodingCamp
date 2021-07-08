@@ -14,4 +14,4 @@ library(SeuratObject)
 #import .rds files 
 
 cortex.data <- readRDS("COVID-19_brain_snRNA-seq_parenchyma_cortex_final_seurat_v3.2.3.rds")
-choroid.data <- 
+choroid.data <- readRDS("COVID-19_brain_snRNA-seq_choroid_plexus_final_seurat_v3.2.3.rds")
